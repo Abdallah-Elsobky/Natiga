@@ -14,7 +14,7 @@ To get started with **ثانوية 2024**, follow these steps:
 ### Technologies Used
 - **Android Studio**
 - **Java**
-- SQLite db
+- **SQLite db**
 - **XML for UI design**
 
 ### Contributing
