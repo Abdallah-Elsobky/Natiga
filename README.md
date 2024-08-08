@@ -20,9 +20,6 @@ To get started with **ثانوية 2024**, follow these steps:
 ### Contributing
 Contributions are welcome! If you have suggestions or find any issues, feel free to open a pull request or an issue.
 
-### License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 
 ### Screenshots
 
