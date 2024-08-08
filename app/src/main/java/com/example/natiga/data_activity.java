@@ -70,7 +70,7 @@ public class data_activity extends AppCompatActivity {
                 }else{
                     Toast.makeText(data_activity.this,"مبروك النجاح 🥳",Toast.LENGTH_SHORT).show();
                 }
-                
+
                 tv_name.setText("الاسم : "+sname);
                 tv_id.setText("رقم الجلوس : "+id);
                 tv_state.setText(state);
