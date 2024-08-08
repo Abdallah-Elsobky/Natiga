@@ -29,7 +29,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 # Get By ID
 <img src="https://github.com/user-attachments/assets/9402c68f-f0bc-411f-997b-9d71de212ecc" width="300" height="600">
 
-#Get By Name
+# Get By Name
 <img src="https://github.com/user-attachments/assets/9d4a5e7c-10de-4452-8932-643620506d3c" width="300" height="600">
 
 # Success
