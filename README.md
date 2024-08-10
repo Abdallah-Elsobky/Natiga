@@ -14,14 +14,23 @@ To get started with **ثانوية 2024**, follow these steps:
 ### Technologies Used
 - **Android Studio**
 - **Java**
-- SQLite db
+- **SQLite db**
 - **XML for UI design**
 
 ### Contributing
 Contributions are welcome! If you have suggestions or find any issues, feel free to open a pull request or an issue.
 
-### License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 
 ### Screenshots
+
+# Get By ID
+<img src="https://github.com/user-attachments/assets/9402c68f-f0bc-411f-997b-9d71de212ecc" width="300" height="700">
+
+# Get By Name
+<img src="https://github.com/user-attachments/assets/9d4a5e7c-10de-4452-8932-643620506d3c" width="300" height="700">
+
+# Success
+<img src="https://github.com/user-attachments/assets/0dac047b-8770-4f43-b733-560bec49b757" width="300" height="700">
+
+# Fail
+<img src="https://github.com/user-attachments/assets/53986a8d-8d41-4f3a-b1d7-67ec64b37f85" width="300" height="700">
