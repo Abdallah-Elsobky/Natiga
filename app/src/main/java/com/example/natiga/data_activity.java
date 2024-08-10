@@ -43,10 +43,10 @@ public class data_activity extends AppCompatActivity {
             dbHelper.openDatabase();
 
 
-            String studentId = "1",name="";
-            Cursor cursor = dbHelper.getStudentDataById(studentId);
+            String studentId,name;
+            Cursor cursor;
 
-            if(sp.getBoolean("num",true)){
+            if(sp.getBoolean("number",true)){
                 studentId = sp.getString("id","error");
                 cursor = dbHelper.getStudentDataById(studentId);
             }else{
@@ -58,10 +58,10 @@ public class data_activity extends AppCompatActivity {
 
                 String id = cursor.getString(cursor.getColumnIndex("student_id"));
                 String sname = cursor.getString(cursor.getColumnIndex("name"));
-                float totalDegree = cursor.getInt(cursor.getColumnIndex("total_degree"));
+                float totalDegree = cursor.getFloat(cursor.getColumnIndex("total_degree"));
                 String state = cursor.getString(cursor.getColumnIndex("state"));
 
-                float percent = ((float)totalDegree/410) *100;
+                float percent = (totalDegree/410) *100;
                 String percentage = String.format("%.2f",percent);
 
                 if(!state.equals("ناجح دور أول")){

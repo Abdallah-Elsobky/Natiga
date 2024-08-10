@@ -86,8 +86,8 @@ public class DatabaseAssetHelper extends SQLiteOpenHelper {
 
     public Cursor getStudentDataByName(String studentName) {
         SQLiteDatabase db = this.getReadableDatabase();
-        String query = "SELECT * FROM students WHERE name = ?";
-        return db.rawQuery(query, new String[]{studentName});
+        String query = "SELECT * FROM students WHERE name LIKE ? LIMIT 1";
+        return db.rawQuery(query, new String[]{"%" + studentName.trim() + "%"});
     }
 
     @Override
