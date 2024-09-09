@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4D6D68"
+    android:background="#FFFFFF"
     tools:context=".data_activity">
 
     <ImageView
@@ -69,7 +69,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/alexandriavariablefontwght"
                             android:text="الاسم :"
-                            android:textColor="#FFFFFF"
+                            android:textColor="#B3000000"
                             android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -95,7 +95,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/alexandriavariablefontwght"
                             android:text="رقم الجلوس :"
-                            android:textColor="#FFFFFF"
+                            android:textColor="#B3000000"
                             android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -119,7 +119,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/alexandriavariablefontwght"
                             android:text="ناجح"
-                            android:textColor="#FFFFFF"
+                            android:textColor="#B3000000"
                             android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"

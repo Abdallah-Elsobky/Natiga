@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#424C65"
-    android:backgroundTint="#637775"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -99,7 +99,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/alexandriavariablefontwght"
         android:text=" ثانوية 2024"
-        android:textColor="#FFFFFF"
+        android:textColor="#BE000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
